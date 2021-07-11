@@ -2,6 +2,13 @@
  A Tkinter application that detects ARP Spoofing
  
  
+ ## Info:
+ <p>Made with Python 3.8.1 and tkinter 8.6</p>
+ 
+ #### Uses pygame mixer:
+ <p> pip install pygame </p>
+ 
+ 
  ## Screenshots: 
 <h3 align = "center"> Main App Screen </h3>
  <p align ="center">
