@@ -1,6 +1,5 @@
 from tkinter import *
 from tkinter.filedialog import askopenfilename
-from playsound import playsound
 import os, glob
 from pygame import mixer
 import subprocess
@@ -106,7 +105,7 @@ class Window(object):
         self.program_state = Label(self.main_app_frame, text="Press Start to Run Program", font= "Helvetica 15")
         self.program_state.grid(row=6, column=4, pady=20)
 
-        self.arp_message_label = Label(self.main_app_frame, text="ARP condition" + " Time Elapsed: 00:00:00", font= "Helvetica 15 bold")
+        self.arp_message_label = Label(self.main_app_frame, text="ARP condition" + " Times Checked: 0", font= "Helvetica 15 bold")
         self.arp_message_label.grid(row=7, column=4, pady=30)
 
         self.start_button = Button(self.main_app_frame, text='Start', command=self.start_arp_detector)
